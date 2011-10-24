@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D5B085914384CA500D9B183 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5B085814384CA500D9B183 /* Cocoa.framework */; };
+		3D5B085B14384CA500D9B183 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5B085A14384CA500D9B183 /* ScreenSaver.framework */; };
+		3D5B086514384CA500D9B183 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B086314384CA500D9B183 /* InfoPlist.strings */; };
+		3D5B086814384CA500D9B183 /* DomScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5B086714384CA500D9B183 /* DomScreenSaverView.h */; };
+		3D5B086A14384CA500D9B183 /* DomScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B086914384CA500D9B183 /* DomScreenSaverView.m */; };
+		3D5B08721438511F00D9B183 /* Edge.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5B08701438511F00D9B183 /* Edge.h */; };
+		3D5B08731438511F00D9B183 /* Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B08711438511F00D9B183 /* Edge.m */; };
+		3D5B087E143858E400D9B183 /* AnimatingLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5B087C143858E300D9B183 /* AnimatingLayer.h */; };
+		3D5B087F143858E400D9B183 /* AnimatingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B087D143858E400D9B183 /* AnimatingLayer.m */; };
+		3DA15B77143AF72500C77350 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA15B76143AF72500C77350 /* OpenGL.framework */; };
+		3DA15BB7143B6E9000C77350 /* MyOpenGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DA15BB5143B6E9000C77350 /* MyOpenGLView.h */; };
+		3DA15BB8143B6E9000C77350 /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA15BB6143B6E9000C77350 /* MyOpenGLView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D5B085514384CA500D9B183 /* DomScreenSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomScreenSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5B085814384CA500D9B183 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3D5B085A14384CA500D9B183 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		3D5B085D14384CA500D9B183 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3D5B085E14384CA500D9B183 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3D5B085F14384CA500D9B183 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D5B086214384CA500D9B183 /* DomScreenSaver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DomScreenSaver-Info.plist"; sourceTree = "<group>"; };
+		3D5B086414384CA500D9B183 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D5B086614384CA500D9B183 /* DomScreenSaver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DomScreenSaver-Prefix.pch"; sourceTree = "<group>"; };
+		3D5B086714384CA500D9B183 /* DomScreenSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DomScreenSaverView.h; sourceTree = "<group>"; };
+		3D5B086914384CA500D9B183 /* DomScreenSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DomScreenSaverView.m; sourceTree = "<group>"; };
+		3D5B08701438511F00D9B183 /* Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Edge.h; sourceTree = "<group>"; };
+		3D5B08711438511F00D9B183 /* Edge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Edge.m; sourceTree = "<group>"; };
+		3D5B087C143858E300D9B183 /* AnimatingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatingLayer.h; sourceTree = "<group>"; };
+		3D5B087D143858E400D9B183 /* AnimatingLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatingLayer.m; sourceTree = "<group>"; };
+		3DA15B76143AF72500C77350 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		3DA15BB5143B6E9000C77350 /* MyOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpenGLView.h; sourceTree = "<group>"; };
+		3DA15BB6143B6E9000C77350 /* MyOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D5B085014384CA500D9B183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA15B77143AF72500C77350 /* OpenGL.framework in Frameworks */,
+				3D5B085914384CA500D9B183 /* Cocoa.framework in Frameworks */,
+				3D5B085B14384CA500D9B183 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D5B084814384CA500D9B183 = {
+			isa = PBXGroup;
+			children = (
+				3DA15B76143AF72500C77350 /* OpenGL.framework */,
+				3D5B086014384CA500D9B183 /* DomScreenSaver */,
+				3D5B085714384CA500D9B183 /* Frameworks */,
+				3D5B085614384CA500D9B183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D5B085614384CA500D9B183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D5B085514384CA500D9B183 /* DomScreenSaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D5B085714384CA500D9B183 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D5B085814384CA500D9B183 /* Cocoa.framework */,
+				3D5B085A14384CA500D9B183 /* ScreenSaver.framework */,
+				3D5B085C14384CA500D9B183 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D5B085C14384CA500D9B183 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D5B085D14384CA500D9B183 /* AppKit.framework */,
+				3D5B085E14384CA500D9B183 /* CoreData.framework */,
+				3D5B085F14384CA500D9B183 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3D5B086014384CA500D9B183 /* DomScreenSaver */ = {
+			isa = PBXGroup;
+			children = (
+				3D5B086714384CA500D9B183 /* DomScreenSaverView.h */,
+				3D5B086914384CA500D9B183 /* DomScreenSaverView.m */,
+				3D5B086114384CA500D9B183 /* Supporting Files */,
+				3D5B08701438511F00D9B183 /* Edge.h */,
+				3D5B08711438511F00D9B183 /* Edge.m */,
+				3D5B087C143858E300D9B183 /* AnimatingLayer.h */,
+				3D5B087D143858E400D9B183 /* AnimatingLayer.m */,
+				3DA15BB5143B6E9000C77350 /* MyOpenGLView.h */,
+				3DA15BB6143B6E9000C77350 /* MyOpenGLView.m */,
+			);
+			path = DomScreenSaver;
+			sourceTree = "<group>";
+		};
+		3D5B086114384CA500D9B183 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D5B086214384CA500D9B183 /* DomScreenSaver-Info.plist */,
+				3D5B086314384CA500D9B183 /* InfoPlist.strings */,
+				3D5B086614384CA500D9B183 /* DomScreenSaver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D5B085114384CA500D9B183 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5B086814384CA500D9B183 /* DomScreenSaverView.h in Headers */,
+				3D5B08721438511F00D9B183 /* Edge.h in Headers */,
+				3D5B087E143858E400D9B183 /* AnimatingLayer.h in Headers */,
+				3DA15BB7143B6E9000C77350 /* MyOpenGLView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D5B085414384CA500D9B183 /* DomScreenSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5B086D14384CA500D9B183 /* Build configuration list for PBXNativeTarget "DomScreenSaver" */;
+			buildPhases = (
+				3D5B084F14384CA500D9B183 /* Sources */,
+				3D5B085014384CA500D9B183 /* Frameworks */,
+				3D5B085114384CA500D9B183 /* Headers */,
+				3D5B085214384CA500D9B183 /* Resources */,
+				3D5B085314384CA500D9B183 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DomScreenSaver;
+			productName = DomScreenSaver;
+			productReference = 3D5B085514384CA500D9B183 /* DomScreenSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D5B084A14384CA500D9B183 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3D5B084D14384CA500D9B183 /* Build configuration list for PBXProject "DomScreenSaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D5B084814384CA500D9B183;
+			productRefGroup = 3D5B085614384CA500D9B183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D5B085414384CA500D9B183 /* DomScreenSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D5B085214384CA500D9B183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5B086514384CA500D9B183 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		3D5B085314384CA500D9B183 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D5B084F14384CA500D9B183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5B086A14384CA500D9B183 /* DomScreenSaverView.m in Sources */,
+				3D5B08731438511F00D9B183 /* Edge.m in Sources */,
+				3D5B087F143858E400D9B183 /* AnimatingLayer.m in Sources */,
+				3DA15BB8143B6E9000C77350 /* MyOpenGLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D5B086314384CA500D9B183 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D5B086414384CA500D9B183 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D5B086B14384CA500D9B183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3D5B086C14384CA500D9B183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3D5B086E14384CA500D9B183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DomScreenSaver/DomScreenSaver-Prefix.pch";
+				INFOPLIST_FILE = "DomScreenSaver/DomScreenSaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		3D5B086F14384CA500D9B183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DomScreenSaver/DomScreenSaver-Prefix.pch";
+				INFOPLIST_FILE = "DomScreenSaver/DomScreenSaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D5B084D14384CA500D9B183 /* Build configuration list for PBXProject "DomScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5B086B14384CA500D9B183 /* Debug */,
+				3D5B086C14384CA500D9B183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5B086D14384CA500D9B183 /* Build configuration list for PBXNativeTarget "DomScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5B086E14384CA500D9B183 /* Debug */,
+				3D5B086F14384CA500D9B183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D5B084A14384CA500D9B183 /* Project object */;
+}
